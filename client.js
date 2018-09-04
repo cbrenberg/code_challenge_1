@@ -1,11 +1,8 @@
-console.log('client.js');
-
 let buttonCounter = 0;
 
 $(document).ready(onReady);
 
 function onReady() {
-  console.log('jQuery');
   $('#generateDiv').on('click', generateDiv);
   $('#divOutput').on('click', '.swapButton', toggleBackground);
   $('#divOutput').on('click', '.deleteButton', deleteDiv);
